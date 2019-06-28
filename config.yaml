@@ -1,0 +1,69 @@
+---
+name: sample_data
+current_table_path: file:///tmp/sample_data_current
+temp_current_table_path: file:///tmp/sample_data_current_temp
+history_table_path: file:///tmp/sample_data_history
+delimiter: ","
+extract_type: full
+columns:
+- name: keycol1
+  type: string
+  key: true
+  ignore: false
+- name: keycol2
+  type: string
+  key: true
+  ignore: false
+- name: keycol3
+  type: string
+  key: true
+  ignore: false
+- name: keycol4
+  type: string
+  key: true
+  ignore: false
+- name: keycol5
+  type: string
+  key: true
+  ignore: false  
+- name: nonkeycol1
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol2
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol3
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol4
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol5
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol6
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol7
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol8
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol9
+  type: float
+  key: false
+  ignore: false
+- name: nonkeycol10
+  type: float
+  key: false
+  ignore: false  
+  

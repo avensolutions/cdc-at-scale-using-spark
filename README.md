@@ -6,7 +6,7 @@ A high-level flowchart representing the basic pattern is shown here:
 
 ## The Example
 
-The example provided here uses the [Synthetic CDC Data Generator application](https://puturlhere), configuring an incoming set with 5 uuid columns acting as a composite key, and 10 random number columns acting as non key values.  The initial days payload consists of 10,000 records, the subsequent days payload consists of another 10,000 records.  From the initial dataset, a `DELETE` operation was performed at the source system for 20% of records, an `UPDATE` was performed on 40% of the records and the remaining 40% of records were unchanged.  In this case the 20% of records that were deleted at the source, were replaced by new `INSERT` operations creating new keys.   
+The example provided here uses the [Synthetic CDC Data Generator application](https://github.com/avensolutions/synthetic-cdc-data-generator), configuring an incoming set with 5 uuid columns acting as a composite key, and 10 random number columns acting as non key values.  The initial days payload consists of 10,000 records, the subsequent days payload consists of another 10,000 records.  From the initial dataset, a `DELETE` operation was performed at the source system for 20% of records, an `UPDATE` was performed on 40% of the records and the remaining 40% of records were unchanged.  In this case the 20% of records that were deleted at the source, were replaced by new `INSERT` operations creating new keys.   
 
 ### Usage
 #### Create Test Input Datasets:
